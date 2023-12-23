@@ -1,0 +1,9 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+ background-color: #fff;;
+}
+
+.main-container.dark {
+  background-color: var(--dark-mode-bg);
+}

@@ -1,0 +1,55 @@
+.header {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 5rem;
+  box-shadow: 5px 5px 5px #7b7b7b8a;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.title {
+  background: linear-gradient(to right, #372ee9 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-dark {
+  background: linear-gradient(to right, #5dbbdb 0%, #01ff63 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container.dark .header {
+  background-color: var(--dark-blue-elements);
+  box-shadow: 5px 5px 5px #a9aba59b;
+  color: var(--color-white);
+}
+
+.theme-light {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.theme-light i {
+  margin-right: 5px;
+}
+
+.theme-dark {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.theme-dark i {
+  margin-right: 5px;
+}
