@@ -3,6 +3,7 @@
   padding: 5rem;
   width: 100%;
   height: 100vh;
+  padding-top: 150px;
 }
 
 .main-container.dark .country-detail-container {

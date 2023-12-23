@@ -31,7 +31,7 @@ const CountrieDetail = () => {
   return (
     <section className="country-detail-container">
       <Link className="back-button" to="/">
-        <i className="fa-solid fa-arrow-left"></i> Back
+        <i className="fa-solid fa-arrow-left">Back</i>
       </Link>
 
       <div className="country-detail-content">
@@ -111,7 +111,7 @@ const CountrieDetail = () => {
             </div>
           </>
         ) : (
-          <h1 className="noFound"> No information found...</h1>
+          <h2 className="noFound"> No information found...</h2>
         )}
       </div>
     </section>
